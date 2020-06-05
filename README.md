@@ -37,4 +37,4 @@ Sample UI below. The app doesn't need to have fancy design. We are looking for f
 - Run the command `npm start` to run the server [http://localhost:3000/]
 
 ### Deplyed at 
-- https://determined-johnson-106d95.netlify.app/
+- 

@@ -72,7 +72,7 @@ export const VideoPlayer = () => {
   };
   
   return (
-    <div>
+    <div className="ytb_input">
       <input
         type="text"
         onKeyDown={handleKeydown}
@@ -80,11 +80,12 @@ export const VideoPlayer = () => {
         ref={c => {
           inputLink = c;
         }}
-        placeholder="Please add youtube link"
+        placeholder="Add youtube link ( eg :
+          https://www.youtube.com/watch?v=OulN7vTDq1I )"
       />
       {hasError && (
         <span className="error">
-          Please add a valid youtube url ( eg :
+          Please add a valid youtube link url ( eg :
           https://www.youtube.com/watch?v=OulN7vTDq1I )
         </span>
       )}
@@ -103,7 +104,7 @@ export const VideoPlayer = () => {
           ) : null}
         </div>
         <div className="playlist">
-          <h4 className="text">PLAYLISTS</h4>
+          <h4 className="text">PLAYLIST</h4>
           <hr></hr>
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId="droppable">

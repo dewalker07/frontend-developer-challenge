@@ -8,13 +8,14 @@ hr {
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   box-sizing: border-box;
 }
 
 .App {
   padding: 40px;
+  background-color: #000;
 }
 
 .card {
@@ -26,11 +27,27 @@ hr {
 
 .input-url {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   width: 100%;
+  max-width: 63%;
+  background: transparent;
   font-size: 16px;
-  padding: 10px 0;
+  padding: 6px 0;
   margin-bottom: 10px;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #ffffff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #ffffff;
 }
 
 .input-url:focus {
@@ -55,6 +72,8 @@ hr {
   font-size: 20px;
   padding-bottom: 10px;
   text-align: center;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 hr {
