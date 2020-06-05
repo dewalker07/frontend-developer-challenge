@@ -39,5 +39,15 @@
   },
   "devDependencies": {
     "gh-pages": "^3.0.0"
+  },
+  "description": "Not just ‘Frontend’, are you a pro at web development with a special liking for JavaScript? How about working with a team that’s full of the creative breed and where food and outings are considered as being equally important to work?",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewalker07/frontend-developer-challenge.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dewalker07/frontend-developer-challenge/issues"
   }
 }
